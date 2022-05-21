@@ -29,8 +29,15 @@
 		"noEmit": true,
 		"isolatedModules": true,
 		"incremental": true,
-		"baseUrl": ".",
-		"paths": {}
+		"types": [
+			"vite/client",
+			"vue/ref-macros",
+			"vite-plugin-pages/client",
+			"vite-plugin-vue-layouts/client"
+		],
+		"paths": {
+			"@/common-utils": ["./packages/common-utils/src/index.ts"]
+		}
 	},
 	"exclude": ["dist", "node_modules"],
 	"include": [

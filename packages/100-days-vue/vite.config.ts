@@ -20,6 +20,10 @@ export default defineConfig({
 	resolve: {
 		alias: {
 			"~/": `${path.resolve(__dirname, "src")}/`,
+			"@/common-utils": `${path.resolve(
+				__dirname,
+				"../common-utils/src/index.ts"
+			)}`,
 		},
 	},
 

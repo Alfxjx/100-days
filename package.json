@@ -3,8 +3,8 @@
 	"private": true,
 	"scripts": {
 		"boostrap": "npm install && lerna bootstrap",
-		"dev:vitesse": "nx dev 100-days-vitesse",
-		"build:vitesse": "nx build 100-days-vitesse",
+		"dev:vite": "nx dev 100-days-vitesse",
+		"build:vite": "nx build 100-days-vitesse",
 		"dev:gateway": "nx serve next-gateway",
 		"build:gateway": "nx build next-gateway"
 	},
@@ -12,6 +12,7 @@
 		"@nrwl/cypress": "14.1.7",
 		"@nrwl/eslint-plugin-nx": "14.1.7",
 		"@nrwl/jest": "14.1.7",
+		"@nrwl/js": "^14.1.7",
 		"@nrwl/linter": "14.1.7",
 		"@nrwl/next": "14.1.7",
 		"@nrwl/react": "14.1.7",

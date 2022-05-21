@@ -1,13 +1,10 @@
 {
-	"extends": "../../tsconfig.base.json",
 	"compilerOptions": {
-		"baseUrl": ".",
 		"module": "ESNext",
 		"target": "ESNext",
 		"lib": ["DOM", "ESNext"],
 		"strict": true,
 		"esModuleInterop": true,
-		"jsx": "preserve",
 		"skipLibCheck": true,
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
@@ -21,7 +18,8 @@
 			"vite-plugin-vue-layouts/client"
 		],
 		"paths": {
-			"~/*": ["src/*"]
+			"~/*": ["./src/*"],
+			"@/common-utils": ["../common-utils/src/index.ts"]
 		}
 	},
 	"exclude": ["dist", "node_modules", "cypress"]

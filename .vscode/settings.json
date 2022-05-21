@@ -11,5 +11,6 @@
   "files.associations": {
     "*.css": "postcss"
   },
-  "editor.formatOnSave": false
+  "editor.formatOnSave": false,
+  "unocss.root": "packages/100-days-vue"
 }
