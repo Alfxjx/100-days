@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name":"100-days-vitesse",
   "packageManager": "pnpm@7.0.0",
   "scripts": {
     "build": "vite-ssg build",
