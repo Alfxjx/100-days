@@ -11,3 +11,7 @@ a lerna + Nx monorepo
 lerna bootstrap
 
 ```
+
+## Issues
+
+1. nx utils import & lerna packages
