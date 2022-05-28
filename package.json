@@ -4,7 +4,7 @@
   "scripts": {
     "bootstrap": "npm install && lerna bootstrap",
     "dev:vite": "nx dev 100-days-vitesse",
-    "build:vite": "nx build 100-days-vitesse",
+    "build:vite": "lerna run --scope 100-days-vue build",
     "dev:gateway": "nx serve next-gateway",
     "build:gateway": "nx build next-gateway"
   },

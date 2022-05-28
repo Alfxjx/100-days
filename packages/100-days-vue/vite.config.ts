@@ -144,7 +144,7 @@ export default defineConfig({
 		},
 	},
 
-	build: {
-		outDir: "../../dist/apps/100-days-vitesse",
-	},
+	// build: {
+	// 	outDir: "../../dist/apps/100-days-vitesse",
+	// },
 });
