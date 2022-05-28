@@ -11,6 +11,18 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  async rewrites() {
+    return [
+      {
+        source: '/vue/:path*',
+        destination: 'https://100-days-vue.vercel.app/:path*',
+      },
+      {
+        source: '/next/:path*',
+        destination: 'https://100-days-next.vercel.app/:path*',
+      },
+    ];
+  },
 };
 
 module.exports = withNx(nextConfig);

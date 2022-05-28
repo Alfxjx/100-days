@@ -6,7 +6,9 @@
     "dev:vite": "nx dev 100-days-vitesse",
     "build:vite": "lerna run --scope 100-days-vue build",
     "dev:gateway": "nx serve next-gateway",
-    "build:gateway": "nx build next-gateway"
+    "build:gateway": "nx build next-gateway",
+    "dev:next": "nx serve hundred-days-next",
+    "build:next": "nx build next-gateway"
   },
   "devDependencies": {
     "@nrwl/cypress": "14.1.7",
