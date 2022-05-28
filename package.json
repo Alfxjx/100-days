@@ -8,7 +8,7 @@
     "dev:gateway": "nx serve next-gateway",
     "build:gateway": "nx build next-gateway",
     "dev:next": "nx serve hundred-days-next",
-    "build:next": "nx build next-gateway"
+    "build:next": "nx build hundred-days-next"
   },
   "devDependencies": {
     "@nrwl/cypress": "14.1.7",
