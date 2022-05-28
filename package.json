@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "boostrap": "npm install && lerna bootstrap",
+    "bootstrap": "npm install && lerna bootstrap",
     "dev:vite": "nx dev 100-days-vitesse",
     "build:vite": "nx build 100-days-vitesse",
     "dev:gateway": "nx serve next-gateway",
