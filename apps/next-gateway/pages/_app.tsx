@@ -6,10 +6,10 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to next-gateway!</title>
+        <title>100-alfxjx</title>
       </Head>
       <main className="app">
-        <Component {...pageProps}/>
+        <Component {...pageProps} />
       </main>
     </>
   );
