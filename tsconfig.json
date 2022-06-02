@@ -33,12 +33,6 @@
     "noEmit": true,
     "isolatedModules": true,
     "incremental": true,
-    "types": [
-      "vite/client",
-      "vue/ref-macros",
-      "vite-plugin-pages/client",
-      "vite-plugin-vue-layouts/client"
-    ],
     "baseUrl": ".",
     "paths": {
       "@/common-utils": [

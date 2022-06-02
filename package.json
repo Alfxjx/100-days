@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "bootstrap": "npm install && lerna bootstrap",
-    "dev:vite": "nx dev 100-days-vitesse",
+    "dev:vite": "nx dev 100-days-vue",
     "build:vite": "lerna run --scope 100-days-vue build",
     "dev:gateway": "nx serve next-gateway",
     "build:gateway": "nx build next-gateway",
