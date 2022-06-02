@@ -6,7 +6,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>100-alfxjx</title>
+        <title>100-days</title>
       </Head>
       <main className="app">
         <Component {...pageProps} />

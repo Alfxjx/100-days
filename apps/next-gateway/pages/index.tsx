@@ -1,15 +1,5 @@
-import { projects } from "config";
 import Link from "next/link";
-
-export const computedIndex = index => {
-  if (index < 9) {
-    return `00${index + 1}`
-  }
-  if (index < 99) {
-    return `0${index + 1}`
-  }
-  return `${index + 1}`
-}
+import { projects, computedIndex } from "@/common-utils";
 
 export function Index() {
   return (
@@ -20,7 +10,7 @@ export function Index() {
           {
             projects.map((proj, index) => {
               return (
-                <Link href={proj.link}>
+                <Link key={proj.name} href={`/${proj.tag}/${proj.link}`}>
                   <li className="w-28 text-xs text-center bg-slate-50 hover:bg-slate-100 p-2 m-2 rounded cursor-pointer">
                     <span className="mr-2">{computedIndex(index)}</span>
                     <span>{proj.name}</span>

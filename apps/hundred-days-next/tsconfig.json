@@ -15,8 +15,10 @@
       "jest",
       "node"
     ],
-		"baseUrl": "."
-
+		"baseUrl": ".",
+    "paths": {
+			"@/common-utils": ["../../packages/common-utils/src/index.ts"]
+    }
   },
   "include": [
     "**/*.ts",
