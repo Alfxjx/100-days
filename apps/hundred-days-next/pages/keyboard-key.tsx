@@ -95,7 +95,7 @@ const Key = ({ data }: { data: IKeyProps }) => {
           background: "linear-gradient(to right, #e5e2e1, #f5f3f1, #e5e2e1)",
           boxShadow: "0 0 10px rgb(0 0 0 / 15%)"
         }}>
-        <span className={`${isMouseDown ? 'scale-105' : ''}`}>{CapFirst(text)}</span>
+        <span className={`${isMouseDown ? 'scale-105' : ''} select-none`}>{CapFirst(text)}</span>
       </span>
     </div >
   )
