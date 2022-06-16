@@ -9,7 +9,7 @@ export function Index() {
         nextProjects.map((x, i) => {
           return (
             <li key={x.name} className="hover:text-blue-700 cursor-pointer">
-              <Link href={`/${x.tag}/${x.link}`}>
+              <Link href={process.env.NODE_ENV === 'development' ? `/${x.link}` : `/${x.tag}/${x.link}`}>
                 <span>
                   {computedIndex(i)}-{x.name}
                 </span>
